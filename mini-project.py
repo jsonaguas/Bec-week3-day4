@@ -3,8 +3,7 @@ rolodex = {1:{'name':'John Deer', 'phone':'212-708-2222', 'email':'johndeer@gmai
 
 def main():
     while True:
-        ans = input('Select option from menu below: ')
-        '''
+        ans = input('''Select option from menu below:
         1. Add a new contact
         2. Edit an existing contact
         3. Delete a contact
@@ -13,7 +12,7 @@ def main():
         6. Export contacts to a text file
         7. Import contacts from a text file
         8. Quit \n
-        '''
+        ''')
         if ans == '1':
             add_contact(input('Enter the name: '), input('Enter the phone number: '))
         elif ans == '2':
