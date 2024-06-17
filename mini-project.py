@@ -63,7 +63,7 @@ def search_contact():
         if (search_term in contact['name'].lower() or
             search_term in contact['phone'] or
             search_term in contact['email'].lower() or
-            print(f"Found: {contact}"))
+            print(f"Found: {contact}")):
             return
     print("No contact found.")
 
